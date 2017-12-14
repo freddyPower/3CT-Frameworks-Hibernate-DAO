@@ -1,4 +1,4 @@
-package dto;
+package com.tresct.domain;
 
 import java.sql.Timestamp;
 import javax.annotation.Generated;

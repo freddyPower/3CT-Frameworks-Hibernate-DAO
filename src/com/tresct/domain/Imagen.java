@@ -1,4 +1,4 @@
-package dto;
+package com.tresct.domain;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;

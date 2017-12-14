@@ -12,12 +12,13 @@ import javax.persistence.criteria.Root;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import dto.DiarioCliente;
-import dto.Imagen;
+import com.tresct.domain.DiarioCliente;
+import com.tresct.domain.Imagen;
+import com.tresct.domain.Inmueble;
+import com.tresct.domain.Tramite;
+
 import dto.Imagen_;
-import dto.Inmueble;
 import dto.Inmueble_;
-import dto.Tramite;
 import util.HibernateUtil;
 
 public class Test {

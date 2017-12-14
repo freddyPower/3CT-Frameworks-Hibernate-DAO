@@ -1,4 +1,4 @@
-package dto;
+package com.tresct.domain;
 
 import javax.annotation.Generated;
 import javax.persistence.metamodel.ListAttribute;

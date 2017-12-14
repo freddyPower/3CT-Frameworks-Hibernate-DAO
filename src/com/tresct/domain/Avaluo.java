@@ -1,4 +1,4 @@
-package dto;
+package com.tresct.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
