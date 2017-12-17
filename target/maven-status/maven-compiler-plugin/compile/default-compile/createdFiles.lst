@@ -1,0 +1,15 @@
+test/Test.class
+com/tresct/domain/DiarioCliente_.class
+com/tresct/domain/Tramite_.class
+com/tresc/dao/impl/InmuebleDaoImpl.class
+com/tresct/domain/DiarioCliente.class
+com/tresct/domain/Avaluo.class
+util/HibernateUtil.class
+com/tresct/dao/InmuebleDao.class
+com/tresct/service/InmuebleService.class
+com/tresct/domain/Inmueble.class
+com/tresct/domain/Inmueble_.class
+com/tresct/domain/Imagen_.class
+com/tresct/domain/Tramite.class
+com/tresct/domain/Imagen.class
+com/tresct/domain/Avaluo_.class

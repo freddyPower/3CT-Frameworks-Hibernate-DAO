@@ -22,11 +22,11 @@
 		<property name="show_sql">true</property>
 		
 		<!-- Mapeo por anotaciones -->
-		<mapping class="com.tresct.dto.Tramite"></mapping> 
-		<mapping class="com.tresct.dto.Avaluo"></mapping>
-		<mapping class="com.tresct.dto.DiarioCliente"></mapping>  
-		<mapping class="com.tresct.dto.Imagen"></mapping> 
-		<mapping class="com.tresct.dto.Inmueble"></mapping> 
+		<mapping class="com.tresct.domain.Tramite"></mapping> 
+		<mapping class="com.tresct.domain.Avaluo"></mapping>
+		<mapping class="com.tresct.domain.DiarioCliente"></mapping>  
+		<mapping class="com.tresct.domain.Imagen"></mapping> 
+		<mapping class="com.tresct.domain.Inmueble"></mapping> 
 		
 	</session-factory>
 </hibernate-configuration>

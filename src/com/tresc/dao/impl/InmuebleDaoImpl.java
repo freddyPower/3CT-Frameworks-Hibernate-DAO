@@ -71,10 +71,19 @@ public class InmuebleDaoImpl implements InmuebleDao{
 
 	@Override
 	public Inmueble buscarInmueble(int id) {
-		Transaction tx = null;		
+		Transaction tx = null;	
+		Inmueble inmueble = null;
 		try {
 			tx = sesion.beginTransaction();
+			CriteriaBuilder builder = sesion.getCriteriaBuilder();
+			CriteriaQuery<Inmueble> criteria =  builder.createQuery(Inmueble.class);
+			Root<Inmueble> root = criteria.from(Inmueble.class);
 			
+			criteria.where(
+						builder.equal( root.get(Inmueble_.idInmueble) , id)
+					);
+			
+			inmueble = sesion.createQuery(criteria).getSingleResult();
 			
 			tx.commit();
 		}catch(Exception e) {
@@ -84,6 +93,10 @@ public class InmuebleDaoImpl implements InmuebleDao{
 			e.printStackTrace();
 		}		
 		return null;
+	}
+	
+	public void cerrarSesion() {
+		sesion.close();
 	}
 
 }
